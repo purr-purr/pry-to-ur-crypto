@@ -1,5 +1,5 @@
 @import 'vars';
-@import 'theme/mixins';
+@import 'mixins';
 
 * {
   box-sizing: border-box;
@@ -33,12 +33,6 @@ button {
 
 #root {
   height: 100%;
-}
-
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
 }
 
 ul,

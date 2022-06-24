@@ -1,11 +1,10 @@
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import Layout from '@modules/layout/containers/Layout';
 import CustomSwitch from './modules/common/components/CustomSwitch';
 import HomePage from '@modules/home';
-import { QueryClient, QueryClientProvider } from 'react-query';
 
 const modulesData = [{ path: '/', title: 'home', component: HomePage }];
-
 const isBrowserSupportsHistory = 'pushState' in window.history;
 const queryClient = new QueryClient();
 const NoFound = () => <Redirect to="/404" />;
