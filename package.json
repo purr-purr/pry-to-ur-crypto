@@ -1,12 +1,9 @@
 {
-  "name": "project",
+  "name": "pry-to-ur-crypto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "@types/eslint": "^7.28.2",
     "@types/eslint-plugin-prettier": "^3.1.0",
     "@types/prettier": "^2.4.1",
