@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import CryptoTable from '@modules/home/components/CryptoTable';
+
+import InfoBlock from '@modules/home/components/InfoBlock';
 
 import s from './Home.module.scss';
 
@@ -11,7 +12,7 @@ const HomePage = () => {
   return (
     <article className={s.container}>
       <h1>Home Page</h1>
-      <CryptoTable />
+      <InfoBlock title="Crypto Table" />
     </article>
   );
 };
